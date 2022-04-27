@@ -1,3 +1,23 @@
+body{
+    margin: 0px;
+}
+h1,h2{
+    margin:0px;
+}
 .hidden{
     display: none;
+}
+.background{
+    position:absolute;
+    left:0;
+    top:0;
+	max-width:100%;
+    min-width:1880px;;
+    max-height:1400px;
+    min-height:1200px;
+    z-index:-5;
+    filter: brightness(30%);
+}
+.LoginForm{
+    text-align: center;
 }
